@@ -11,8 +11,8 @@ include_directories(${OpenCV_INCLUDE_DIRS} "/opt/homebrew/include")
 
 # 2. Setup ONNX Runtime
 # UPDATE THIS PATH to where you extracted onnxruntime-linux-x64-1.x.x
-set(ONNXRUNTIME_DIR "/Users/hari/Documents/Projects/RT-object_detection/onnxruntime-osx-universal2-1.23.2")
-set(ONNXRUNTIME_LIB_DIR "/Users/hari/Documents/Projects/RT-object_detection/onnxruntime-osx-universal2-1.23.2/lib")
+set(ONNXRUNTIME_DIR "your_path")
+set(ONNXRUNTIME_LIB_DIR "your_path")
 
 include_directories(${ONNXRUNTIME_DIR}/include)
 link_directories(${ONNXRUNTIME_LIB_DIR})
